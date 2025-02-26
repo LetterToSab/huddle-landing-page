@@ -1,0 +1,50 @@
+:root{
+  --Pink: hsl(322, 100%, 66%);
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  background-color: white;
+}
+
+h1,
+h2,
+h3{
+  margin: 0;
+  color: var(--Very-Dark-Cyan);
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Poppins';
+}
+
+ul li{
+  list-style: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container{
+  background-color: white;
+}
