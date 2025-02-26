@@ -1,7 +1,7 @@
-@import url('https: //github.com/LetterToSab/huddle-landing-page/tree/main/css/globel/boilerplate.css');
-@import url('https: //github.com/LetterToSab/huddle-landing-page/tree/main/css/globel/css/globel/fonts.css');
-@import url('https: //github.com/LetterToSab/huddle-landing-page/tree/main/css/globel/css/globel/layout.css');
-@import url('https: //github.com/LetterToSab/huddle-landing-page/tree/main/css/globel/css/components/header.css');
-@import url('https: //github.com/LetterToSab/huddle-landing-page/tree/main/css/globel/css/components/hero.css');
-@import url('https: //github.com/LetterToSab/huddle-landing-page/tree/main/css/globel/css/components/container.css');
-@import url('https: //github.com/LetterToSab/huddle-landing-page/tree/main/css/globel/css/components/footer.css');
+@import url('boilerplate.css');
+@import url('css/globel/fonts.css');
+@import url('css/globel/layout.css');
+@import url('css/components/header.css');
+@import url('css/components/hero.css');
+@import url('css/components/container.css');
+@import url('css/components/footer.css');
