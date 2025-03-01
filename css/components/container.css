@@ -1,0 +1,150 @@
+.container{
+  margin-top: 7em;
+}
+
+.growth, .conversions{
+  --shadow-clr: rgba(0, 37, 46, 0.05);
+
+  display: grid;
+  margin-top: 4em;
+  background-color: white;
+  padding: 3em 3em 1em;
+  border-radius: 1.2em;
+  box-shadow: 0px 0px 5px 5px var(--shadow-clr);
+  transition: 150ms ease-in-out;
+  transition-property: box-shadow, transform;
+}
+
+.users{
+  --shadow-clr: rgba(0, 37, 46, 0.05);
+  
+    display: grid;
+    margin-top: 4em;
+    background-color: white;
+    padding: 6em 3em 1em;
+    border-radius: 1.2em;
+    box-shadow: 0px 0px 5px 5px var(--shadow-clr);
+    transition: 150ms ease-in-out;
+    transition-property: box-shadow, transform;
+}
+
+.conversions{
+  padding-block: 3em;
+}
+
+.growth__text , .conversions__text , .users__text{
+  margin-block: 6em 1em;
+  order: 2;
+}
+
+h2{
+  font-size: clamp(2.2rem, 3vw, 2.4rem);
+  text-align: center;
+}
+
+.grey-text{
+  color: var(--Grayish-Blue);
+  margin-top: 2em;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.growth__img , .conversions__img , .users__img{ 
+  order: 1;
+  display: flex;
+  justify-content: flex-end;
+  width: 230px;
+  margin-top: 3em;
+  margin-inline: auto;
+}
+
+
+.growth__img img , .conversions__img img , .users__img img{
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.growth:hover{
+  box-shadow: 0px 10px 10px rgba(0, 37, 46, 0.2);
+  transform: scale(1.025);
+}
+
+.conversions:hover{
+  box-shadow: 0px 10px 10px rgba(0, 37, 46, 0.2);
+  transform: scale(1.025);
+}
+
+.users:hover{
+  box-shadow: 0px 10px 10px rgba(0, 37, 46, 0.2);
+  transform: scale(1.025);
+}
+
+@media(width>=50em){
+  .growth, .conversions, .users{
+   grid-template-columns: repeat(2, 1fr);
+   padding: 3em;
+   gap: 5em;
+  }
+  
+
+  .conversions{
+    padding-bottom: 8em;
+  }
+
+  .growth__text {
+   order: 1;
+  }
+
+  .growth__text, .conversions__text , .users__text{
+    margin-top: 8em;
+  }
+
+  h2{
+    text-align: left;
+  }
+
+  .grey-text{
+    text-align: left;
+  } 
+  .growth__img,
+  .conversions__img,
+  .users__img {
+    width: 300px;
+  }
+
+  .growth__img img,
+  .conversions__img img,
+  .users__img img {
+   max-width: 100%;
+  }
+   
+  .growth__img{
+    order: 2;
+    padding-right: 0;
+    }
+
+  .users__img{
+    order: 2;
+  }  
+
+}
+
+@media(width>=90em){
+  h2{
+    font-size: 2.7rem;
+  }
+
+  .grey-text{
+    font-size: 1.4rem;
+  }
+
+  .growth__img,
+  .conversions__img,
+  .users__img {
+    width: 330px;
+  }
+
+
+}
