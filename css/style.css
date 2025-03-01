@@ -1,7 +1,7 @@
-@import url('/css/globel/boilerplate.css');
-@import url('/css/globel/fonts.css');
-@import url('/css/globel/layout.css');
-@import url('/css/components/header.css');
-@import url('/css/components/hero.css');
-@import url('/css/components/container.css');
-@import url('/css/components/footer.css');
+@import url("globel/boilerplate.css");
+@import url("globel/fonts.css");
+@import url("globel/layout.css");
+@import url("components/header.css");
+@import url("components/hero.css");
+@import url("components/container.css");
+@import url("components/footer.css");
